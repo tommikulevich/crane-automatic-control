@@ -4,6 +4,8 @@ Przedstawiamy program symulujący działanie **dźwigu**! Program automatycznie 
 
 > Program został zrealizowany w środowisku Visual Studio 2019 za pomocą Windows Forms (CRL Project with .NET Framework 4.7.2).
 
+![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen0.png)
+
 ### 🎯 Jak uruchomić?
 Aby uruchomić program i zapewnić poprawne jego działanie, należy:
 1. Upewnić się, że w Visual Studio 2019 jest zainstalowany **C++/CLI support for v142 build tools**.
