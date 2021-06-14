@@ -3,7 +3,6 @@
 Przedstawiamy program symulujący działanie **dźwigu**! Program automatycznie buduje wieżę złożoną z 3 elementów: *kwadrat->trójkąt->koło*.
 
 > Program został zrealizowany w środowisku Visual Studio 2019 za pomocą Windows Forms (CRL Project with .NET Framework 4.7.2).
-
 ![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen0.png)
 
 ### 🎯 Jak uruchomić?
