@@ -1,9 +1,11 @@
-# 📈 Visualization Of Automatic Control System: Crane
+# 📈 Visualization Of Automatic Control System: Crane 
 
-> ☣ **Warning:** This project was created for educational purposes only. It may contain non-optimal or outdated solutions.
+> ☣ **Warning:** This project was created for educational purposes only. It may contain non-optimal or outdated solutions. 
+
+> ☢ **Warning:** Comments in the code are in Polish
 
 ### 📜 About
-A program simulating the operation of the **crane** is presented. It automatically builds a tower consisting of 3 elements: *Square->Triangle->Circle*. This Project was implemented in Visual Studio 2019 using Windows Forms (CRL Project with. Net Framework 4.7.2).
+A program simulating the operation of the **crane** is presented. It automatically builds a tower consisting of 3 elements: *Square->Triangle->Circle*. This Project was implemented in Visual Studio 2019 using Windows Forms (CRL Project with. Net Framework 4.7.2). 
 
 <img src="/_readmeImg/Screen0.png?raw=true 'Crane'" width="500">
 
