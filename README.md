@@ -5,7 +5,7 @@
 ### 📜 About
 A program simulating the operation of the **crane** is presented. It automatically builds a tower consisting of 3 elements: *Square->Triangle->Circle*. This Project was implemented in Visual Studio 2019 using Windows Forms (CRL Project with. Net Framework 4.7.2).
 
-![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen0.png)
+<img src="/_readmeImg/Screen0.png?raw=true 'Crane'" width="500">
 
 ### 🎯 How to run?
 To run the program and ensure its correct operation, you should:
@@ -13,11 +13,11 @@ To run the program and ensure its correct operation, you should:
 	Help: https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=msvc-160
 2. Go to *Project->Project4 Properties->Configuration Properties->Linker->System* and change the value of *SubSystem* to **Windows (/SUBSYSTEM: WINDOWS)**.
 
-![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen1.png)
+<img src="/_readmeImg/Screen1.png?raw=true 'Settings I'" width="500">
 
 3. Go to *Project->Project4 Properties->Configuration Properties->Linker->Advanced* and change the value of *Entry point* to **main**.
 
-![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen2.png)
+<img src="/_readmeImg/Screen2.png?raw=true 'Settings II'" width="500">
 
 4. If errors appear at startup, try to enter the folder with the project, open the settings file of file *FormCrane.resx* and select **Unblock** (if there is such an option).
 
