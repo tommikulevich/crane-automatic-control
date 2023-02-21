@@ -1,50 +1,51 @@
-# 📈 Wizualizacja Systemów Automatyki 
-### 📜 Opis
-Przedstawiamy program symulujący działanie **dźwigu**! Program automatycznie buduje wieżę złożoną z 3 elementów: *kwadrat->trójkąt->koło*.
+# 📈 Visualization Of Automatic Control System: Crane
 
-> Program został zrealizowany w środowisku Visual Studio 2019 za pomocą Windows Forms (CRL Project with .NET Framework 4.7.2).
+> ☣ **Warning:** This project was created for educational purposes only. It may contain non-optimal or outdated solutions.
+
+### 📜 About
+A program simulating the operation of the **crane** is presented. It automatically builds a tower consisting of 3 elements: *Square->Triangle->Circle*. This Project was implemented in Visual Studio 2019 using Windows Forms (CRL Project with. Net Framework 4.7.2).
 
 ![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen0.png)
 
-### 🎯 Jak uruchomić?
-Aby uruchomić program i zapewnić poprawne jego działanie, należy:
-1. Upewnić się, że w Visual Studio 2019 jest zainstalowany **C++/CLI support for v142 build tools**.
-	Pomóc: https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=msvc-160
-2. Wejść w *Project->Project4 Properties->Configuration Properties->Linker->System* i zmienić wartość *SubSystem* na **Windows (/SUBSYSTEM:WINDOWS)**.
+### 🎯 How to run?
+To run the program and ensure its correct operation, you should:
+1. Make sure that Visual Studio 2019 has **C++/CLI support for v142 build tools** installed.
+	Help: https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp?view=msvc-160
+2. Go to *Project->Project4 Properties->Configuration Properties->Linker->System* and change the value of *SubSystem* to **Windows (/SUBSYSTEM: WINDOWS)**.
 
 ![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen1.png)
 
-3. Wejść w *Project->Project4 Properties->Configuration Properties->Linker->Advanced* i zmienić wartość *Entry point* na **main**. 
+3. Go to *Project->Project4 Properties->Configuration Properties->Linker->Advanced* and change the value of *Entry point* to **main**.
 
 ![Image alt](https://github.com/jwszol-classes/tp-2021-Garikmal/raw/master/Screen2.png)
 
-4. W przypadku blędów przy uruchamianiu spróbować wejść w folder z projektem, otworzyć ustawienia pliku *FormCrane.resx* i zaznaczyć opcję **Unblock** (jeżeli taka opcja jest).  
+4. If errors appear at startup, try to enter the folder with the project, open the settings file of file *FormCrane.resx* and select **Unblock** (if there is such an option).
 
-*Dodatkowo:* jeżeli przy pierwszym otwarzaniu projektu zamiast formy wyświetla się błąd, należy ponownie uruchomić Visual Studio.
+*Additionally:* if you see an error when you first open the project instead of the form, you must restart Visual Studio.
 
-### 💻 Zasady działania 
-Windows Forms jest bardzo przyjemnym narzędziem do robienia GUI. Mamy dużo różnych ustawień elementów okna, które niekoniecznie musimy ręcznie wpisywać w kod. Działanie programu można określić w kilku krokach:
-- Start programu - wyświetlanie elementów okna.
-- Użytkownik naciska przycisk **Go!**
-- Program generuje bloki.
-- Program *etapami* rozpoczyna budowę wieży.
-- Gdy wieża zostanie zbudowana, wyświetli się odpowiedni komunikat.
+### 💻 How does it work?
+Windows Forms is a pretty nice tool for doing GUI. We have a lot of different settings for window elements, which we do not necessarily have to manually enter into the code. The operation of this program can be determined in several steps:
+- Start - display window elements.
+- The user presses the **Go!** button
+- The program generates blocks.
+- The program *in stages* begins the construction of the tower.
+- When the tower is built, a message will be displayed.
 
-| Etap         | Wizualizacja | Opis                                                     |
+| Stage        | Visualization | Description                                             |
 | :----------: |:------------:| :--------------------------------------------------------|
-| **1**        | 🔗 ▶️       | hak porusza się w kierunku trójkąta                      |
-| **2**        | 🔗 🔽       | hak opada w dół                                          |
-| **3**        | 🔗🔺⏫     | hak (razem z trójkątem) podnoszą się                      |
-| **4**        | 🔗🔺⏩     | hak (razem z trójkątem) poruszają się w kierunku kwadratu |
-| **5**        | 🔗🔺⏬     | hak (razem z trójkątem) opadają w dół                     |
-| **6**        | 🔗🔼        | hak podnosi się                                          |
-| **7**        | 🔗▶️        | hak porusza się w kierunku koła                          |
-| **8**        | 🔗🔽        | hak opada w dół                                          |
-| **9**        | 🔗⚫⏫     | hak (razem z kołem) podnoszą się                          |
-| **10**       | 🔗⚫⏩     | hak (razem z kołem) poruszają się w kierunku kwadratu     |
-| **11**       | 🔗⚫⏬     | hak (razem z kołem) opadają w dół                         |
-|              |🔗⚫🔺🟥   | Koniec działania                                          |
+| **1**        | 🔗 ▶️       | hook moves in the direction of the triangle              |
+| **2**        | 🔗 🔽       | hook drops down                                          |
+| **3**        | 🔗🔺⏫     | hook (together with the triangle) rises                   |
+| **4**        | 🔗🔺⏩     | hook (together with the triangle) moves towards the square |
+| **5**        | 🔗🔺⏬     | hook (together with the triangle) falls down               |
+| **6**        | 🔗🔼        | hook rises     						|
+| **7**        | 🔗▶️        | hook moves in the direction of the circle                |
+| **8**        | 🔗🔽        | hook drops down                                          |
+| **9**        | 🔗⚫⏫     | hook (together with the circle) rises                     |
+| **10**       | 🔗⚫⏩     | hook (together with the circle) moves towards the square   |
+| **11**       | 🔗⚫⏬     | hook (together with the circle) falls down                 |
+|              |🔗⚫🔺🟥   | end			                                         |
 
-### 💪 Autorzy
-- **Tomash Mikulevich** | 187720 | ACiR3  
-- **Igor Malkovskiy** | 187717 | ACiR3
+### 💪 Authors
+- **Tomash Mikulevich**
+- **Igor Malkovskiy**
